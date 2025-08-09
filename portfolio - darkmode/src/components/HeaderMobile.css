@@ -1,0 +1,29 @@
+@keyframes iconOpen {
+    from {
+        transform: rotate(0deg);
+        opacity: 0.5;
+    }
+    to {
+        transform: rotate(90deg);
+        opacity: 1;
+    }
+}
+
+@keyframes iconClose {
+    from {
+        transform: rotate(90deg);
+        opacity: 0.5;
+    }
+    to {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.animate-icon-open {
+    animation: iconOpen 0.3s ease forwards;
+}
+
+.animate-icon-close {
+    animation: iconClose 0.3s ease forwards;
+}
