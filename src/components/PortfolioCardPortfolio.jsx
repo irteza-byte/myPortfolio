@@ -50,7 +50,7 @@ export default function PortfolioCardPortfolio() {
                             <div className="mt-4 flex flex-col sm:flex-row justify-center gap-3">
                                 {/* Live Demo Button */}
                                 <a
-                                    href="#"
+                                    href="https://my-portfolio-vyfm.vercel.app/"
                                     className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-white text-sm font-semibold transition-transform duration-300 shadow-md bg-gradient-to-r from-blue-600 to-blue-500 border border-transparent hover:scale-95 hover:shadow-lg hover:shadow-blue-500/20"
                                 >
                                     <svg
@@ -71,7 +71,7 @@ export default function PortfolioCardPortfolio() {
 
                                 {/* View Code Button */}
                                 <a
-                                    href="#"
+                                    href="https://github.com/irteza-byte/myPortfolio"
                                     className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-gray-200 text-sm font-semibold bg-gray-800 border border-gray-700 transition-transform duration-300 shadow-sm hover:scale-95 hover:bg-gray-700"
                                 >
                                     <svg
